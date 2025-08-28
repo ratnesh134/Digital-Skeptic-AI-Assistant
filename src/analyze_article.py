@@ -10,7 +10,7 @@ api_key = os.getenv("GROQ_API_KEY")
 # Initialize Groq client via LangChain
 llm = ChatGroq(
     api_key=api_key,
-    model="llama-3.3-70b-versatile",
+    model="openai/gpt-oss-120b",
     temperature=0
 )
 
